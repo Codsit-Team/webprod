@@ -1,7 +1,7 @@
 #!/bin/sh  
 echo "Subiendo codigo github"  
-git add .  
+sudo git add .  
 echo "Commit all files to Repository"
 NOW=$(date +"%m-%d-%Y %r")
-git commit -m "save work date : $NOW "  
-git push
+sudo git commit -m "save work date : $NOW "  
+sudo git push
